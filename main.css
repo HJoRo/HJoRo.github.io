@@ -6,6 +6,10 @@
     width: 75vh;
     height: auto;
     border-radius: 30%;
+    transition: width 1s;
+}
+.profilePicture:hover {
+    width: 70vh;
 }
 h2 {
     font-family: 'Lucida Sans';
@@ -15,5 +19,31 @@ h2 {
     margin-right: 40vh;
     border-style: solid;
     border-color: olivedrab;
+    border-width: 5px;
     font-family: 'Lucida Sans';
+}
+
+.footer {
+    margin-left: 40vh;
+    margin-right: 40vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+@media only screen and (max-width: 780px) {
+    .aboutMe {
+        margin-right: 5vh;
+        margin-left: 5vh;
+        border-style: top;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .aboutMe {
+        margin-right: 5vh;
+        margin-left: 5vh;
+        border-style: top;
+    }
+    
 }
