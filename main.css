@@ -1,43 +1,19 @@
-.header {
-    text-align: center;
-    border-bottom: 3px;
-    border-color: royalblue;
-    
-}
-
-.felix {
-    text-align: center;
-    border:5px;
-    border-style: dotted;
-    border-color: #581845;
-}
-
-#felixp {
+.container {
+    display: block;
     text-align: center;
 }
-
-.darling {
-    text-align: center;
-    border:5px;
-    border-style: dotted;
-    border-color: #581845;
+.profilePicture {
+    width: 75vh;
+    height: auto;
+    border-radius: 30%;
 }
-
-.olive {
-    text-align: center;
-    border:5px;
-    border-style: dotted;
-    border-color: #581845;
+h2 {
+    font-family: 'Lucida Sans';
 }
-
-.footer {
-    
-    border-color: white;
-    border-width: 5px;
-    background-color: #FF5733;
-    text-align: center;
-}
-
-.footertext {
-    color: white;
+.aboutMe {
+    margin-left: 40vh;
+    margin-right: 40vh;
+    border-style: solid;
+    border-color: olivedrab;
+    font-family: 'Lucida Sans';
 }
