@@ -15,8 +15,8 @@ h2 {
     font-family: 'Lucida Sans';
 }
 .aboutMe {
-    margin-left: 40vh;
-    margin-right: 40vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
     border-style: solid;
     border-color: olivedrab;
     border-width: 5px;
@@ -36,14 +36,14 @@ h2 {
     .aboutMe {
         margin-right: 5vh;
         margin-left: 5vh;
-        border-style: top;
+        
     }
 }
 @media only screen and (max-width: 600px) {
     .aboutMe {
         margin-right: 5vh;
         margin-left: 5vh;
-        border-style: top;
+        
     }
     
 }
