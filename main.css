@@ -1,15 +1,18 @@
+html {
+    background-color: #f5ebfc;
+}
 .container {
     display: block;
     text-align: center;
 }
 .profilePicture {
-    width: 75vh;
+    width: 45vh;
     height: auto;
     border-radius: 30%;
     transition: width 1s;
 }
 .profilePicture:hover {
-    width: 70vh;
+    width: 40vh;
 }
 h2 {
     font-family: 'Lucida Sans';
@@ -22,13 +25,17 @@ h2 {
     border-width: 5px;
     font-family: 'Lucida Sans';
 }
-
+.links {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
 .footer {
     margin-left: 40vh;
     margin-right: 40vh;
-    border-style: solid;
-    border-width: 5px;
-    border-color: darkgoldenrod;
+    padding: 5px;
     font-family: 'Lucida Sans';
     text-align: center;
 }
