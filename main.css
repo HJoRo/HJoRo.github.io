@@ -1,9 +1,23 @@
 html {
     background-color: #f5ebfc;
 }
-.container {
-    display: block;
-    text-align: center;
+
+.heading {
+    display: grid;
+    grid-template-columns: minmax(50vh, 25%) 1fr;
+    margin: 5% 15% 10% 15%;
+    min-height: 50px;
+    font-size: x-large;
+    font-family: 'Lucida Sans';
+    text-align: justify;
+    text-align-last: left;
+    letter-spacing: 5px;
+}
+.tagline {
+    text-align: right;
+    text-align-last: right;
+    letter-spacing: normal;
+    font-size: 20px;
 }
 .profilePicture {
     width: 45vh;
@@ -14,9 +28,7 @@ html {
 .profilePicture:hover {
     width: 40vh;
 }
-h2 {
-    font-family: 'Lucida Sans';
-}
+
 .aboutMe {
     margin-left: 25vh;
     margin-right: 25vh;
