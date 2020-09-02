@@ -1,17 +1,19 @@
 html {
-    background-color: #f5ebfc;
+    background-color: white;
 }
 
 .heading {
     display: grid;
     grid-template-columns: minmax(50vh, 25%) 1fr;
-    margin: 5% 15% 10% 15%;
+    padding: 5% 15% 10% 15%;
     min-height: 50px;
     font-size: x-large;
     font-family: 'Lucida Sans';
     text-align: justify;
     text-align-last: left;
     letter-spacing: 5px;
+    background-image: url(background.jpg);
+    background-size: 1600px;
 }
 .tagline {
     text-align: right;
@@ -26,16 +28,15 @@ html {
     transition: width 1s;
 }
 .profilePicture:hover {
-    width: 40vh;
+    width: 44vh;
 }
 
 .aboutMe {
-    margin-left: 25vh;
-    margin-right: 25vh;
-    border-style: solid;
-    border-color: olivedrab;
-    border-width: 5px;
+    margin-left: 30vh;
+    margin-right: 30vh;
     font-family: 'Lucida Sans';
+    text-align: justify;
+    text-align-last: left;
 }
 .links {
     text-decoration: none;
