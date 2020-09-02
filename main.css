@@ -12,7 +12,7 @@ html {
     text-align: justify;
     text-align-last: left;
     letter-spacing: 5px;
-    background-image: url(background.jpg);
+    background-image: url("background.jpg");
     background-size: 1600px;
 }
 .tagline {
