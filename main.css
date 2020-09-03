@@ -1,14 +1,14 @@
 html {
+    font-family: 'Lucida Sans';
     background-color: white;
 }
 
 .heading {
     display: grid;
     grid-template-columns: minmax(50vh, 25%) 1fr;
-    padding: 5% 15% 10% 15%;
+    padding: 5% 15% 5% 15%;
     min-height: 50px;
     font-size: x-large;
-    font-family: 'Lucida Sans';
     text-align: justify;
     text-align-last: left;
     letter-spacing: 5px;
@@ -24,17 +24,30 @@ html {
 .profilePicture {
     width: 45vh;
     height: auto;
+    border: 4px solid white;
     border-radius: 30%;
     transition: width 1s;
 }
 .profilePicture:hover {
     width: 44vh;
 }
-
+.navbar {
+    display: flex;
+    background-color: #4cbfb4;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #9debc0;
+    color: black;
+}
 .aboutMe {
     margin-left: 30vh;
     margin-right: 30vh;
-    font-family: 'Lucida Sans';
     text-align: justify;
     text-align-last: left;
 }
@@ -49,14 +62,21 @@ html {
     margin-left: 40vh;
     margin-right: 40vh;
     padding: 5px;
-    font-family: 'Lucida Sans';
     text-align: center;
 }
 @media only screen and (max-width: 780px) {
+    .heading {
+        display: block;
+        padding: 5%;
+        background-size: cover;
+    }
     .aboutMe {
         margin-right: 5vh;
         margin-left: 5vh;
         
+    }
+    .footer {
+        margin: 5%;
     }
 }
 @media only screen and (max-width: 600px) {

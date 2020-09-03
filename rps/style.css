@@ -4,6 +4,16 @@ html {
     color: darkslategray;
     background-color: pink;
 }
+.back {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: large;
+    color: darkslategray;
+}
+.back:hover {
+    background-color: white;
+    padding: 15px 20px;
+}
 img:hover {
     cursor: default;
     transform: rotate(360deg);
@@ -31,4 +41,12 @@ img:hover {
 .outcome {
     display: grid;
     place-items: center;
+}
+@media only screen and (max-width: 780px) {
+    .container {
+        border-radius: 0%;
+    }
+    .outcome {
+        text-align: center;
+    }
 }
