@@ -1,8 +1,0 @@
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 25%;
-    margin: 5%;
-    padding: 5% 5%;
-    border: 2px solid black;
-    min-height: 50px;
-}
